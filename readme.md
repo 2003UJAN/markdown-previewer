@@ -21,7 +21,7 @@ The Markdown Previewer is a web application that allows users to write and previ
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/forhadakhan/markdown-previewer.git`
+1. Clone the repository: `git clone https://github.com/2003UJAN/markdown-previewer.git`
 2. Navigate to the project directory: `cd markdown-previewer`
 3. Install the dependencies: `npm install`
 
@@ -32,10 +32,4 @@ The Markdown Previewer is a web application that allows users to write and previ
 3. Enter your Markdown text in the editor.
 4. The preview pane will automatically update with the rendered HTML.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. 
+ 

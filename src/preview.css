@@ -2,7 +2,7 @@ blockquote {
     margin: 20px 15px !important;
     padding: 0.4em;
     color: #666c74;
-    border-left: 0.25em solid #dfe2e5;
+    border-left: 0.25em solid #f0f3f5;
     background-color: #f3f3f3;
 }
 
@@ -13,13 +13,13 @@ p {
 }
 
 a {
-    color: #0366d6 !important;
+    color: #40d5ec !important;
     text-decoration: none;
     transition: color 0.3s ease-in-out !important;
 }
 
 a:hover {
-    color: #0366d6;
+    color: #40d5ec;
     text-decoration: underline;
 }
 

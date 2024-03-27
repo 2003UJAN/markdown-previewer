@@ -1,45 +1,46 @@
+const InitialMarkdown = `# Explore Bangalore and Kolkata through Markdown
 
-const InitialMarkdown = `# Welcome to my React Markdown Previewer!
+## Discover the Charm of Two Cities
+### Dive into their essence:
 
-## This is a sub-heading...
-### And here's some other cool stuff:
-
-Heres some code, \`<div></div>\`, between 2 backticks.
+Let's start with some code, \`<span></span>\`, wrapped in backticks.
 
 \`\`\`
-// this is multi-line code:
+// A multi-line code example:
 
-function anotherExample(firstLine, lastLine) {
-  if (firstLine === '\`\`\`' && lastLine === '\`\`\`') {
-    return multiLineCode;
-  }
+function exploreCities(city1, city2) {
+  console.log('Welcome to ' + city1 + ' and ' + city2);
 }
 \`\`\`
 
-You can also make text **bold**... whoa!
-Or _italic_.
-Or... wait for it... **_both!_**
-And feel free to go crazy ~~crossing stuff out~~.
+You can emphasize text in **bold** or _italic_.
+Combine them for **_emphasis_**!
+You can even ~~strike through~~.
 
-There's also [links](https://www.freecodecamp.org), and
-> Block Quotes!
+Interested in learning more? Check out these links:
+- [Bangalore Tourism](https://www.lonelyplanet.com/india/karnataka/bangalore)
+- [Kolkata Travel Guide](https://www.lonelyplanet.com/india/west-bengal/kolkata)
 
-And if you want to get really crazy, even tables:
+And here's a block quote to inspire your travels:
 
-| Wild Header | Crazy Header | Another Header? |
-| ------------ | ------------- | ------------- |
-| Your content can | be here, and it | can be here... |
-| And here. | Okay. | I think we get it. |
+> "Traveling – it leaves you speechless, then turns you into a storyteller." - Ibn Battuta
 
-- And of course there are lists.
-  - Some are bulleted.
-     - With different indentation levels.
-         - That look like this.
+Now, let's talk about the unique features of each city:
 
-1. And there are numbered lists too.
-1. Use just 1s if you want!
-1. And last but not least, let's not forget embedded images:
+### Bangalore
+- Known as the Silicon Valley of India
+- Bustling IT hub with a vibrant startup culture
+- Pleasant weather year-round
 
-![markdown Logo](https://img.crx4chrome.com/b6/51/1e/ehnpcjdjgnnjibdeacicbkhgagkdjgfn-logo.png)`;
+### Kolkata
+- City of Joy with rich cultural heritage
+- Home to historic landmarks like the Victoria Memorial and Howrah Bridge
+- Renowned for its delectable street food and sweets
+
+Explore the streets of Bangalore and Kolkata, and immerse yourself in their beauty!
+
+Last but not least, here's an image to pique your interest:
+
+![Bangalore and Kolkata](https://images.unsplash.com/photo-1580079684487-0546d0e7b094)`;
 
 export default InitialMarkdown;
